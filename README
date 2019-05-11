@@ -1,0 +1,14 @@
+﻿StKE package provide a library to evaluate the StKE collective variables for a given input variable, as well as all derivatives of collective variables with respect to the input variables. You can use this library in your favorite enhanced sampling package (for example, PLUMED) and program your own StKE collective variable type. For training StKE collective variables, please refer to StKE_train package.
+
+Install:
+
+1. In the root directory use "mkdir build" to make a build directory.
+2. In the root directory use "Make" to compile.
+3. In the build directory you will find libraries named as "libke.so" and "libke.a". 
+
+Use:
+You can link the libke.so or libke.a to your favorite enhanced sampling package. In the "src" directory, you can use "ke.h" as your include file if you need. You can find a short instruction of functions in this library. "test_io.c" provide a real example to use this library. 
+
+
+
+
